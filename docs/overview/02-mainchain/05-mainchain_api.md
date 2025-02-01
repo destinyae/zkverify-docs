@@ -474,7 +474,7 @@ pub enum CannotAggregateCause {
         /// The domain identifier.
         domain_id: u32,
     },
-    /// The user doesn't have enough founds to hold balance for publication.
+    /// The user doesn't have enough funds to hold balance for publication.
     InsufficientFunds,
     /// The domain's state is not valid.
     InvalidDomainState {
